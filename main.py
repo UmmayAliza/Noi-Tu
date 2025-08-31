@@ -1,3 +1,5 @@
+# Copyright (c) 2025 EndermanPC - Bùi Nguyễn Tấn Sang
+
 import discord
 from discord.ext import commands
 from discord.utils import format_dt
