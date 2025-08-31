@@ -41,8 +41,8 @@ It supports casual play, tournaments, ranking systems, anti-cheat, and database 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/noi-tu-discord-bot.git
-cd noi-tu-discord-bot
+git clone https://github.com/EndermanPC/Noi-Tu.git
+cd Noi-Tu
 ````
 
 ### 2. Install dependencies
